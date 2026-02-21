@@ -1,15 +1,56 @@
-Smart AI Defense Simulation System
 
-Overview:
-Simulation system to assist soldiers with enemy detection, night vision, threat alerts, and health monitoring using video and CSV data.
 
-Run:
-Place drone_feed.mp4 and sensor_data.csv in data/
+#  Danger Zone Detection
 
-Run: python dashboard/main_dashboard.py
+Real-time object detection system that alerts when objects enter a predefined danger zone using OpenCV.
 
-Shows video with detection and danger zone
-Alerts printed in terminal
-Press q to quit
+---
 
-Dependencies: Python 3.x, OpenCV, NumPy
+##  Features
+
+* Real-time video detection
+* Danger zone monitoring
+* Terminal alerts
+* Press **`q`** to quit
+
+---
+
+##  Requirements
+
+* Python 3.x
+* OpenCV
+* NumPy
+
+Install:
+
+```bash
+pip install opencv-python numpy
+```
+
+---
+
+##  Run
+
+```bash
+python main.py
+```
+
+---
+
+##  How It Works
+
+* Captures video from webcam
+* Detects objects
+* Checks if objects enter danger zone
+* Prints alert in terminal
+
+---
+
+## 📌 Example Alert
+
+```bash
+ALERT: Object detected in danger zone!
+```
+
+---
+
