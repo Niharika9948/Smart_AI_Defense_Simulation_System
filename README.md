@@ -1,6 +1,6 @@
 
 
-#  Danger Zone Detection
+#  Smart_AI_Defense_Simulation_System
 
 Real-time object detection system that alerts when objects enter a predefined danger zone using OpenCV.
 
