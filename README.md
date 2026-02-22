@@ -46,7 +46,7 @@ python main.py
 
 ---
 
-## 📌 Example Alert
+##  Example Alert
 
 ```bash
 ALERT: Object detected in danger zone!
